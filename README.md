@@ -22,7 +22,7 @@ Before we get started you are going to need so basics:
 ## Installation
 If you need to download terraform , then click here [Terraform](https://www.terraform.io/downloads)
 
-Lets create a file for declaring the variables.This is used to declare the variable and the values are passing through the terrafrom.tfvars file.
+Lets create a file for declaring the variables.This is used to declare the variables that pass values through the terrafrom.tfvars file.
 
 ## Create a varriable.tf file
 ~~~
@@ -243,9 +243,9 @@ output "cloudfront-url" {
 
 Lets validate the terraform files using
 
-```
+~~~
 terraform validate
-```
+~~~
 
 Lets plan the architecture and verify once again
 
